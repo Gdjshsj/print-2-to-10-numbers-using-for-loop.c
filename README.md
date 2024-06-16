@@ -1,2 +1,7 @@
-# print-2-to-10-numbers-using-for-loop.c
-print 2to 10 numbers using for loop
+ #include<stdio.h>
+int main()
+{
+    int i;
+    for(i=2;i<=10;i+=2)
+    printf("%d\t",i);
+}
